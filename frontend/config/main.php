@@ -11,6 +11,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+    'defaultRoute' => 'hello-world',///或者hello-world/say-hello都可以  访问http://yii2.frame/index.php
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
